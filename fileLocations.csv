@@ -1,0 +1,7 @@
+gameMenu,textures/gui/gameMenu.csv,,
+spritesFile,textures/world/sprites/spritesFile.csv,,
+worldSpecs,worldSpecs.csv,,
+actFiles,Act1.csv,Design/Act2.csv,Design/Act3.csv
+tileFiles,textures/world/tiles/tileFiles.csv,,
+itemFiles,textures/world/items/itemList.csv,,
+introFile,textures/gui/overlays/intro.csv,,

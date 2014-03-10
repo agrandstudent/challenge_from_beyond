@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E1449943-7CEF-4C52-B099-66AC85B8AFD4}</ProjectGuid>
+    <RootNamespace>WorldScrollingGame</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <ReferencePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ReferencePath)</ReferencePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)\WorldScrollingGame;$(SolutionDir)\WorldScrollingGame\WorldScrollingGame;$(SolutionDir)\WorldScrollingGame\GameEngine\ai;$(SolutionDir)\WorldScrollingGame\GameEngine\dataLoader;$(SolutionDir)\WorldScrollingGame\GameEngine\game;$(SolutionDir)\WorldScrollingGame\GameEngine\graphics;$(SolutionDir)\WorldScrollingGame\GameEngine\gui;$(SolutionDir)\WorldScrollingGame\GameEngine\input;$(SolutionDir)\WorldScrollingGame\GameEngine\os;$(SolutionDir)\WorldScrollingGame\GameEngine\physics;$(SolutionDir)\WorldScrollingGame\GameEngine\text;$(SolutionDir)\WorldScrollingGame\GameEngine\timer;$(SolutionDir)\WorldScrollingGame\GameEngine\world;$(SolutionDir)\WorldScrollingGame\GameEngine\TechnologyPlugins\DirectXPlugin;$(SolutionDir)\WorldScrollingGame\GameEngine\TechnologyPlugins\WindowsPlugin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalUsingDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>d3d9.lib d3dx9.lib dinput8.lib dxguid.lib d3dx9d.lib winmm.lib %(AdditionalOptions)</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="BlankCursor.cur" />
+    <None Include="small.ico" />
+    <None Include="WorldScrollingGame.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WorldScrollingGame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Challenge From BeyondFINAL\Challenge From BeyondFINAL\WorldScrollingGame\WorldScrollingGame\GameAI.cpp" />
+    <ClCompile Include="GameAI.cpp" />
+    <ClCompile Include="GamePhysics.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerStatsGui.cpp" />
+    <ClCompile Include="WorldScrollingGame\WorldScrollingGame.cpp" />
+    <ClCompile Include="WRButtonEventHandler.cpp" />
+    <ClCompile Include="WRKeyEventHandler.cpp" />
+    <ClCompile Include="WRTextGenerator.cpp" />
+    <ClCompile Include="GameEngine\dataLoader\GameDataLoader.cpp" />
+    <ClCompile Include="GameEngine\dataLoader\TextFileReader.cpp" />
+    <ClCompile Include="GameEngine\dataLoader\TextFileWriter.cpp" />
+    <ClCompile Include="GameEngine\game\Game.cpp" />
+    <ClCompile Include="GameEngine\game\StringTable.cpp" />
+    <ClCompile Include="GameEngine\graphics\GameGraphics.cpp" />
+    <ClCompile Include="GameEngine\graphics\RenderList.cpp" />
+    <ClCompile Include="GameEngine\graphics\TextureManager.cpp" />
+    <ClCompile Include="GameEngine\gui\Button.cpp" />
+    <ClCompile Include="GameEngine\gui\Cursor.cpp" />
+    <ClCompile Include="GameEngine\gui\GameGUI.cpp" />
+    <ClCompile Include="GameEngine\gui\ScreenGUI.cpp" />
+    <ClCompile Include="GameEngine\input\GameInput.cpp" />
+    <ClCompile Include="GameEngine\TechnologyPlugins\DirectXPlugin\DirectXGraphics.cpp" />
+    <ClCompile Include="GameEngine\TechnologyPlugins\DirectXPlugin\DirectXTextureManager.cpp" />
+    <ClCompile Include="GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameInput.cpp" />
+    <ClCompile Include="GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameOS.cpp" />
+    <ClCompile Include="GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameTimer.cpp" />
+    <ClCompile Include="GameEngine\text\GameText.cpp" />
+    <ClCompile Include="GameEngine\world\AnimatedSprite.cpp" />
+    <ClCompile Include="GameEngine\world\AnimatedSpriteType.cpp" />
+    <ClCompile Include="GameWorld.cpp" />
+    <ClCompile Include="GameEngine\world\SparseLayer.cpp" />
+    <ClCompile Include="GameEngine\world\SpriteManager.cpp" />
+    <ClCompile Include="GameEngine\world\TiledLayer.cpp" />
+    <ClCompile Include="GameEngine\world\Viewport.cpp" />
+    <ClCompile Include="GameEngine\dataLoader\WorldLayer.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="XactSound.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CollisionObject.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerStatsGui.h" />
+    <ClInclude Include="WorldScrollingGame\WorldScrollingGame.h" />
+    <ClInclude Include="WRButtonEventHandler.h" />
+    <ClInclude Include="WRKeyEventHandler.h" />
+    <ClInclude Include="WRTextGenerator.h" />
+    <ClInclude Include="GameEngine\ai\Bot.h" />
+    <ClInclude Include="GameEngine\ai\DeterministicBot.h" />
+    <ClInclude Include="GameEngine\ai\GameAI.h" />
+    <ClInclude Include="GameEngine\dataLoader\GameDataLoader.h" />
+    <ClInclude Include="GameEngine\dataLoader\TextFileReader.h" />
+    <ClInclude Include="GameEngine\dataLoader\TextFileWriter.h" />
+    <ClInclude Include="GameEngine\game\Game.h" />
+    <ClInclude Include="GameEngine\game\IllegalArgumentException.h" />
+    <ClInclude Include="GameEngine\game\IllegalFileFormatException.h" />
+    <ClInclude Include="GameEngine\game\StringTable.h" />
+    <ClInclude Include="GameEngine\graphics\GameGraphics.h" />
+    <ClInclude Include="GameEngine\graphics\RenderList.h" />
+    <ClInclude Include="GameEngine\graphics\TextureManager.h" />
+    <ClInclude Include="GameEngine\gui\Button.h" />
+    <ClInclude Include="GameEngine\gui\Cursor.h" />
+    <ClInclude Include="GameEngine\gui\GameGUI.h" />
+    <ClInclude Include="GameEngine\gui\OverlayImage.h" />
+    <ClInclude Include="GameEngine\gui\ScreenGUI.h" />
+    <ClInclude Include="GameEngine\input\ButtonEventHandler.h" />
+    <ClInclude Include="GameEngine\input\GameInput.h" />
+    <ClInclude Include="GameEngine\input\KeyEventHandler.h" />
+    <ClInclude Include="GameEngine\os\GameOS.h" />
+    <ClInclude Include="GameEngine\physics\BoundingVolume.h" />
+    <ClInclude Include="GameEngine\physics\CollidableObject.h" />
+    <ClInclude Include="GameEngine\physics\GamePhysics.h" />
+    <ClInclude Include="GameEngine\physics\PhysicalProperties.h" />
+    <ClInclude Include="GameEngine\TechnologyPlugins\DirectXPlugin\DirectXGraphics.h" />
+    <ClInclude Include="GameEngine\TechnologyPlugins\DirectXPlugin\DirectXTextureManager.h" />
+    <ClInclude Include="GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameInput.h" />
+    <ClInclude Include="GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameOS.h" />
+    <ClInclude Include="GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameTimer.h" />
+    <ClInclude Include="GameEngine\text\GameText.h" />
+    <ClInclude Include="GameEngine\text\TextGenerator.h" />
+    <ClInclude Include="GameEngine\timer\GameTimer.h" />
+    <ClInclude Include="GameEngine\world\AnimatedSprite.h" />
+    <ClInclude Include="GameEngine\world\AnimatedSpriteType.h" />
+    <ClInclude Include="GameEngine\world\GameWorld.h" />
+    <ClInclude Include="GameEngine\world\SparseLayer.h" />
+    <ClInclude Include="GameEngine\world\SpriteManager.h" />
+    <ClInclude Include="GameEngine\world\TiledLayer.h" />
+    <ClInclude Include="GameEngine\world\Viewport.h" />
+    <ClInclude Include="GameEngine\world\WorldLayer.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="XactSound.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

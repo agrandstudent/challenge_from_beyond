@@ -1,0 +1,10 @@
+player,0,0,0,0,0,1,255,0,0,200,100,840,64,2890,1472
+knight,4,0,0,0,0,1,255,1,Design/AI/squareBot.csv,1160,1480,,,,
+knight,4,0,0,0,0,1,255,1,Design/AI/squareBot.csv,1320,1480,,,,
+knight,4,0,0,0,0,1,255,1,Design/AI/squareBot.csv,1680,1480,,,,
+knight,4,0,0,0,0,1,255,1,Design/AI/squareBot.csv,1860,1480,,,,
+knight,4,0,0,0,0,1,255,1,Design/AI/squareBotReverse.csv,1160,1900,,,,
+knight,4,0,0,0,0,1,255,1,Design/AI/squareBotReverse.csv,1320,1900,,,,
+knight,4,0,0,0,0,1,255,1,Design/AI/squareBotReverse.csv,1500,1900,,,,
+knight,4,0,0,0,0,1,255,1,Design/AI/squareBotReverse.csv,1680,1900,,,,
+knight,4,0,0,0,0,1,255,1,Design/AI/squareBotReverse.csv,1860,1900,,,,

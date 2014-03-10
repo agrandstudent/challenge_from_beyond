@@ -1,0 +1,9 @@
+spriteID,2,,
+animationSpeed,6,,
+textureSize,200,130,
+HP,20,,
+movementSpeed,2,,
+down,textures/world/sprites/Boss/bossLeft1.png,textures/world/sprites/Boss/bossLeft2.png,textures/world/sprites/Boss/bossLeft3.png
+left,textures/world/sprites/Boss/bossLeft1.png,textures/world/sprites/Boss/bossLeft2.png,textures/world/sprites/Boss/bossLeft3.png
+up,textures/world/sprites/Boss/bossRight1.png,textures/world/sprites/Boss/bossRight2.png,textures/world/sprites/Boss/bossRight3.png
+right,textures/world/sprites/Boss/bossRight1.png,textures/world/sprites/Boss/bossRight2.png,textures/world/sprites/Boss/bossRight3.png

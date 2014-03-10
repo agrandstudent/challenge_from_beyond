@@ -1,0 +1,5 @@
+spriteID,6,,,,
+animationSpeed,2,,,,
+textureSize,52,39,,,
+movementSpeed,2,,,,
+swordUp,textures/world/sprites/player/swordUp1.png,textures/world/sprites/player/swordUp2.png,textures/world/sprites/player/swordUp3.png,textures/world/sprites/player/swordUp4.png,textures/world/sprites/player/swordUp5.png

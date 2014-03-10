@@ -1,0 +1,10 @@
+player,0,0,0,0,0,1,255,0,0,200,100,840,64,2890,1472
+zombie,1,0,0,0,0,1,255,0,Design/AI/leftRightBot.csv,600,400,,,,
+zombie,1,0,0,0,0,1,255,0,Design/AI/leftRightBot.csv,2368,401,,,,
+zombie,1,0,0,0,0,1,255,0,Design/AI/leftRightBot.csv,600,402,,,,
+zombie,1,0,0,0,0,1,255,0,Design/AI/leftRightBot.csv,300,403,,,,
+zombie,1,0,0,0,0,1,255,0,Design/AI/leftRightBot.csv,800,404,,,,
+clockones,2,0,0,0,0,1,255,0,0,960,-34,,,,
+clockTens,3,0,0,0,0,1,255,0,0,1000,-15,,,,
+clockHour,4,0,0,0,0,1,255,0,0,800,-15,,,,
+clockHourTens,5,0,0,0,0,1,255,0,0,900,-15,,,,

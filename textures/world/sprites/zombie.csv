@@ -1,0 +1,12 @@
+spriteID,1,,,,,,
+animationSpeed,6,,,,,,
+textureSize,70,54,,,,,
+movementSpeed,1,,,,,,
+HP,3,,,,,,
+down,textures/world/sprites/zombie/down1.png,textures/world/sprites/zombie/down2.png,textures/world/sprites/zombie/down3.png,,,,
+left,textures/world/sprites/zombie/left1.png,textures/world/sprites/zombie/left2.png,textures/world/sprites/zombie/left3.png,,,,
+up,textures/world/sprites/zombie/up1.png,textures/world/sprites/zombie/up2.png,textures/world/sprites/zombie/up3.png,,,,
+right,textures/world/sprites/zombie/right1.png,textures/world/sprites/zombie/right2.png,textures/world/sprites/zombie/right3.png,,,,
+deathLeft,textures/world/sprites/zombie/zDeathL_1.png,textures/world/sprites/zombie/zDeathL_2.png,textures/world/sprites/zombie/zDeathL_3.png,textures/world/sprites/zombie/zDeathL_4.png,textures/world/sprites/zombie/zDeathL_5.png,textures/world/sprites/zombie/zDeathL_6.png,textures/world/sprites/zombie/zDeathL_7.png
+deathUp,textures/world/sprites/zombie/zDeathU_1.png,textures/world/sprites/zombie/zDeathU_2.png,textures/world/sprites/zombie/zDeathU_3.png,textures/world/sprites/zombie/zDeathU_4.png,textures/world/sprites/zombie/zDeathU_5.png,textures/world/sprites/zombie/zDeathU_6.png,textures/world/sprites/zombie/zDeathU_7.png
+deathRight,textures/world/sprites/zombie/zDeathR_1.png,textures/world/sprites/zombie/zDeathR_2.png,textures/world/sprites/zombie/zDeathR_3.png,textures/world/sprites/zombie/zDeathR_4.png,textures/world/sprites/zombie/zDeathR_5.png,textures/world/sprites/zombie/zDeathR_6.png,textures/world/sprites/zombie/zDeathR_7.png

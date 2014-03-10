@@ -1,0 +1,13 @@
+spriteID,0,,,,,
+animationSpeed,6,,,,,
+textureSize,52,38,,,,
+movementSpeed,2,,,,,
+down,textures/world/sprites/player/main1.png,textures/world/sprites/player/main2.png,textures/world/sprites/player/main3.png,,,
+left,textures/world/sprites/player/mainLeft1.png,textures/world/sprites/player/mainLeft2.png,textures/world/sprites/player/mainLeft3.png,,,
+up,textures/world/sprites/player/mainUp1.png,textures/world/sprites/player/mainUp2.png,textures/world/sprites/player/mainUp3.png,,,
+right,textures/world/sprites/player/mainRight1.png,textures/world/sprites/player/mainRight2.png,textures/world/sprites/player/mainRight3.png,,,
+attackDown,textures/world/sprites/player/attackDown1.png,textures/world/sprites/player/attackDown2.png,textures/world/sprites/player/attackDown3.png,,,
+attackLeft,textures/world/sprites/player/attackLeft1.png,textures/world/sprites/player/attackLeft2.png,textures/world/sprites/player/attackLeft3.png,textures/world/sprites/player/attackLeft4.png,textures/world/sprites/player/attackLeft5.png,textures/world/sprites/player/mainLeft1.png
+attackRight,textures/world/sprites/player/attackRight1.png,textures/world/sprites/player/attackRight2.png,textures/world/sprites/player/attackRight3.png,textures/world/sprites/player/attackRight4.png,textures/world/sprites/player/attackRight5.png,
+attackUp,textures/world/sprites/player/attackUp1.png,textures/world/sprites/player/attackUp2.png,textures/world/sprites/player/attackUp3.png,textures/world/sprites/player/attackUp4.png,textures/world/sprites/player/attackUp5.png,
+death,textures/world/sprites/player/mainLeft1.png,textures/world/sprites/player/main1.png,textures/world/sprites/player/mainRight1.png,textures/world/sprites/player/mainUp1.png,textures/world/sprites/player/dead.png,

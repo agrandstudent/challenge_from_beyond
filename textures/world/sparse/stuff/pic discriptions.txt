@@ -1,0 +1,5 @@
+lamp on: has a partly transpartent yellow cirlce around the lamp to hopefully give the effect that the light is on.  dimentions 128x128
+lamp off: lamp on without the circle
+clock: it is suppose to look like a grandfather clock. dimenstions 64x64
+chair: looks like a chair.  dimensions 64x64
+rug: it is suppose to look like an oriantal rug.  dimensions 192x128

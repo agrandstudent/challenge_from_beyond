@@ -1,0 +1,15 @@
+spriteID,7,,,,,
+animationSpeed,4,,,,,
+textureSize,70,54,,,,
+movementSpeed,3,,,,,
+HP,2,,,,,
+vdown,textures/world/sprites/vampire/batD_1.png,textures/world/sprites/vampire/batD_2.png,textures/world/sprites/vampire/batD_3.png,,,
+vleft,textures/world/sprites/vampire/batL_1.png,textures/world/sprites/vampire/batL_2.png,textures/world/sprites/vampire/batL_3.png,,,
+vup,textures/world/sprites/vampire/batU_1.png,textures/world/sprites/vampire/batU_2.png,textures/world/sprites/vampire/batU_3.png,,,
+vright,textures/world/sprites/vampire/batR_1.png,textures/world/sprites/vampire/batR_2.png,textures/world/sprites/vampire/batR_3.png,,,
+vcloud,textures/world/sprites/vampire/cloud1.png,textures/world/sprites/vampire/cloud2.png,textures/world/sprites/vampire/cloud3.png,textures/world/sprites/vampire/cloud4.png,textures/world/sprites/vampire/cloud5.png,
+RATK,textures/world/sprites/vampire/vampireR.png,textures/world/sprites/vampire/RATK1.png,textures/world/sprites/vampire/RATK2.png,textures/world/sprites/vampire/RATK3.png,textures/world/sprites/vampire/RATK4.png,textures/world/sprites/vampire/RATK5.png
+LATK,textures/world/sprites/vampire/vampireL.png,textures/world/sprites/vampire/LATK1.png,textures/world/sprites/vampire/LATK2.png,textures/world/sprites/vampire/LATK3.png,textures/world/sprites/vampire/LATK4.png,textures/world/sprites/vampire/LATK5.png
+UATK,textures/world/sprites/vampire/vampireU.png,textures/world/sprites/vampire/UATK1.png,textures/world/sprites/vampire/UATK2.png,textures/world/sprites/vampire/UATK3.png,textures/world/sprites/vampire/UATK4.png,textures/world/sprites/vampire/UATK5.png
+DATK,textures/world/sprites/vampire/vampireD.png,textures/world/sprites/vampire/DATK1.png,textures/world/sprites/vampire/DATK2.png,textures/world/sprites/vampire/DATK3.png,textures/world/sprites/vampire/DATK4.png,textures/world/sprites/vampire/DATK5.png
+vdeath,textures/world/sprites/vampire/death1.png,textures/world/sprites/vampire/death2.png,textures/world/sprites/vampire/death3.png,textures/world/sprites/vampire/death4.png,,

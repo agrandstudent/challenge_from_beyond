@@ -1,0 +1,5 @@
+spriteID,5,,,,
+animationSpeed,2,,,,
+textureSize,52,39,,,
+movementSpeed,2,,,,
+swordLeft,textures/world/sprites/player/swordLeft1.png,textures/world/sprites/player/swordLeft2.png,textures/world/sprites/player/swordLeft3.png,textures/world/sprites/player/swordLeft4.png,textures/world/sprites/player/swordLeft5.png

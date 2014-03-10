@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="WorldScrollingGame">
+      <UniqueIdentifier>{26e63932-0888-4bfb-b4e4-1c013ca45f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine">
+      <UniqueIdentifier>{39449942-7f45-4382-a858-c529c83082cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\ai">
+      <UniqueIdentifier>{29863d30-8a65-4eda-b646-d8edc87192c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\dataLoader">
+      <UniqueIdentifier>{dc199ece-b220-4132-9027-52d2886aa8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\game">
+      <UniqueIdentifier>{12f699ab-74f9-4e91-8302-731f40d7fd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\graphics">
+      <UniqueIdentifier>{e4d49df7-8d20-43de-9946-4d8fa356941b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\gui">
+      <UniqueIdentifier>{68b0544e-fd41-45c1-8c90-fc6d1ef8e16a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\input">
+      <UniqueIdentifier>{e83c6af5-8bea-4247-8cbc-5f94b39bc9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\os">
+      <UniqueIdentifier>{38ef88de-6ca4-4953-883f-c2b3f82494d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\physics">
+      <UniqueIdentifier>{b7e44ca9-6f26-4e69-b11f-b3671ccc047a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\TechnologyPlugins">
+      <UniqueIdentifier>{4255ec08-2277-412d-afd2-9e39eea96c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\TechnologyPlugins\DirectXPlugin">
+      <UniqueIdentifier>{c5588ddd-9468-4a30-a264-19ad60cb7c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\TechnologyPlugins\WindowsPlugin">
+      <UniqueIdentifier>{9e5a97c7-6fd1-4f1a-8913-48d9bda94a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\text">
+      <UniqueIdentifier>{05109b85-f292-40fb-b039-6d8a3edadcbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\timer">
+      <UniqueIdentifier>{e544c349-8ac4-4909-9a24-4624f02bee0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\world">
+      <UniqueIdentifier>{fab800e0-2953-45b5-9cb3-28b82dc2594b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\player">
+      <UniqueIdentifier>{7088f110-a56d-420b-939d-b407288e71e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlankCursor.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="WorldScrollingGame.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WorldScrollingGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WorldScrollingGame\WorldScrollingGame.cpp">
+      <Filter>WorldScrollingGame</Filter>
+    </ClCompile>
+    <ClCompile Include="WRButtonEventHandler.cpp">
+      <Filter>WorldScrollingGame</Filter>
+    </ClCompile>
+    <ClCompile Include="WRKeyEventHandler.cpp">
+      <Filter>WorldScrollingGame</Filter>
+    </ClCompile>
+    <ClCompile Include="WRTextGenerator.cpp">
+      <Filter>WorldScrollingGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\dataLoader\GameDataLoader.cpp">
+      <Filter>GameEngine\dataLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\dataLoader\TextFileReader.cpp">
+      <Filter>GameEngine\dataLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\dataLoader\TextFileWriter.cpp">
+      <Filter>GameEngine\dataLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\game\Game.cpp">
+      <Filter>GameEngine\game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\game\StringTable.cpp">
+      <Filter>GameEngine\game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\graphics\GameGraphics.cpp">
+      <Filter>GameEngine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\graphics\RenderList.cpp">
+      <Filter>GameEngine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\graphics\TextureManager.cpp">
+      <Filter>GameEngine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\gui\Button.cpp">
+      <Filter>GameEngine\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\gui\Cursor.cpp">
+      <Filter>GameEngine\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\gui\GameGUI.cpp">
+      <Filter>GameEngine\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\gui\ScreenGUI.cpp">
+      <Filter>GameEngine\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\input\GameInput.cpp">
+      <Filter>GameEngine\input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\TechnologyPlugins\DirectXPlugin\DirectXGraphics.cpp">
+      <Filter>GameEngine\TechnologyPlugins\DirectXPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\TechnologyPlugins\DirectXPlugin\DirectXTextureManager.cpp">
+      <Filter>GameEngine\TechnologyPlugins\DirectXPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameInput.cpp">
+      <Filter>GameEngine\TechnologyPlugins\WindowsPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameOS.cpp">
+      <Filter>GameEngine\TechnologyPlugins\WindowsPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameTimer.cpp">
+      <Filter>GameEngine\TechnologyPlugins\WindowsPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\text\GameText.cpp">
+      <Filter>GameEngine\text</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\world\AnimatedSprite.cpp">
+      <Filter>GameEngine\world</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\world\AnimatedSpriteType.cpp">
+      <Filter>GameEngine\world</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>GameEngine\world</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\world\SparseLayer.cpp">
+      <Filter>GameEngine\world</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\world\SpriteManager.cpp">
+      <Filter>GameEngine\world</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\world\TiledLayer.cpp">
+      <Filter>GameEngine\world</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\world\Viewport.cpp">
+      <Filter>GameEngine\world</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\dataLoader\WorldLayer.cpp">
+      <Filter>GameEngine\world</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="GamePhysics.cpp">
+      <Filter>GameEngine\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameAI.cpp">
+      <Filter>GameEngine\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameEngine\player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStatsGui.cpp">
+      <Filter>GameEngine\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="XactSound.cpp">
+      <Filter>GameEngine\TechnologyPlugins\DirectXPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Challenge From BeyondFINAL\Challenge From BeyondFINAL\WorldScrollingGame\WorldScrollingGame\GameAI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WorldScrollingGame\WorldScrollingGame.h">
+      <Filter>WorldScrollingGame</Filter>
+    </ClInclude>
+    <ClInclude Include="WRButtonEventHandler.h">
+      <Filter>WorldScrollingGame</Filter>
+    </ClInclude>
+    <ClInclude Include="WRKeyEventHandler.h">
+      <Filter>WorldScrollingGame</Filter>
+    </ClInclude>
+    <ClInclude Include="WRTextGenerator.h">
+      <Filter>WorldScrollingGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\ai\Bot.h">
+      <Filter>GameEngine\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\ai\DeterministicBot.h">
+      <Filter>GameEngine\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\ai\GameAI.h">
+      <Filter>GameEngine\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\dataLoader\GameDataLoader.h">
+      <Filter>GameEngine\dataLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\dataLoader\TextFileReader.h">
+      <Filter>GameEngine\dataLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\dataLoader\TextFileWriter.h">
+      <Filter>GameEngine\dataLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\game\Game.h">
+      <Filter>GameEngine\game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\game\IllegalArgumentException.h">
+      <Filter>GameEngine\game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\game\IllegalFileFormatException.h">
+      <Filter>GameEngine\game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\graphics\GameGraphics.h">
+      <Filter>GameEngine\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\graphics\RenderList.h">
+      <Filter>GameEngine\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\graphics\TextureManager.h">
+      <Filter>GameEngine\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\gui\Button.h">
+      <Filter>GameEngine\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\gui\Cursor.h">
+      <Filter>GameEngine\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\gui\GameGUI.h">
+      <Filter>GameEngine\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\gui\OverlayImage.h">
+      <Filter>GameEngine\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\gui\ScreenGUI.h">
+      <Filter>GameEngine\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\input\ButtonEventHandler.h">
+      <Filter>GameEngine\input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\input\GameInput.h">
+      <Filter>GameEngine\input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\input\KeyEventHandler.h">
+      <Filter>GameEngine\input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\os\GameOS.h">
+      <Filter>GameEngine\os</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\physics\BoundingVolume.h">
+      <Filter>GameEngine\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\physics\CollidableObject.h">
+      <Filter>GameEngine\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\physics\GamePhysics.h">
+      <Filter>GameEngine\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\physics\PhysicalProperties.h">
+      <Filter>GameEngine\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\TechnologyPlugins\DirectXPlugin\DirectXGraphics.h">
+      <Filter>GameEngine\TechnologyPlugins\DirectXPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\TechnologyPlugins\DirectXPlugin\DirectXTextureManager.h">
+      <Filter>GameEngine\TechnologyPlugins\DirectXPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameInput.h">
+      <Filter>GameEngine\TechnologyPlugins\WindowsPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameOS.h">
+      <Filter>GameEngine\TechnologyPlugins\WindowsPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameTimer.h">
+      <Filter>GameEngine\TechnologyPlugins\WindowsPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\text\GameText.h">
+      <Filter>GameEngine\text</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\text\TextGenerator.h">
+      <Filter>GameEngine\text</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\timer\GameTimer.h">
+      <Filter>GameEngine\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\world\AnimatedSprite.h">
+      <Filter>GameEngine\world</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\world\AnimatedSpriteType.h">
+      <Filter>GameEngine\world</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\world\GameWorld.h">
+      <Filter>GameEngine\world</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\world\SparseLayer.h">
+      <Filter>GameEngine\world</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\world\SpriteManager.h">
+      <Filter>GameEngine\world</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\world\TiledLayer.h">
+      <Filter>GameEngine\world</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\world\Viewport.h">
+      <Filter>GameEngine\world</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\world\WorldLayer.h">
+      <Filter>GameEngine\world</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="GameEngine\game\StringTable.h">
+      <Filter>GameEngine\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionObject.h">
+      <Filter>GameEngine\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameEngine\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>GameEngine\player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStatsGui.h">
+      <Filter>GameEngine\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="XactSound.h">
+      <Filter>GameEngine\TechnologyPlugins\DirectXPlugin</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

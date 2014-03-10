@@ -1,0 +1,9 @@
+spriteID,4,,
+animationSpeed,6,,
+textureSize,71,46,
+movementSpeed,2,,
+HP,12,,
+down,textures/world/sprites/knight/knight1.png,textures/world/sprites/knight/knight2.png,textures/world/sprites/knight/knight3.png
+left,textures/world/sprites/knight/knightLeft1.png,textures/world/sprites/knight/knightLeft2.png,textures/world/sprites/knight/knightLeft3.png
+up,textures/world/sprites/knight/knightUp1.png,textures/world/sprites/knight/knightUp2.png,textures/world/sprites/knight/knightUp3.png
+right,textures/world/sprites/knight/knightRight1.png,textures/world/sprites/knight/knightRight2.png,textures/world/sprites/knight/knightRight3.png

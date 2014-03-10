@@ -1,0 +1,8 @@
+spriteID,3,,
+animationSpeed,6,,
+textureSize,40,40,
+movementSpeed,5,,
+down,textures/world/sparse/scream.png,textures/world/sparse/scream.png,textures/world/sparse/scream.png
+left,textures/world/sparse/scream.png,textures/world/sparse/scream.png,textures/world/sparse/scream.png
+up,textures/world/sparse/scream.png,textures/world/sparse/scream.png,textures/world/sparse/scream.png
+right,textures/world/sparse/scream.png,textures/world/sparse/scream.png,textures/world/sparse/scream.png

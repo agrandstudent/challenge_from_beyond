@@ -1,0 +1,86 @@
+﻿Build started 5/15/2011 5:45:59 AM.
+     1>Project "\\files\UndergradHome\agrandstaff\Desktop\Challenge From BeyondFINAL\Challenge From BeyondFINAL\WorldScrollingGame\WorldScrollingGame\WorldScrollingGame.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\WorldScrollingGame.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\WorldScrollingGame.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GameAI.cpp GamePhysics.cpp Player.cpp PlayerStatsGui.cpp WorldScrollingGame\WorldScrollingGame.cpp WRButtonEventHandler.cpp WRKeyEventHandler.cpp WRTextGenerator.cpp GameEngine\dataLoader\GameDataLoader.cpp GameEngine\dataLoader\TextFileReader.cpp GameEngine\dataLoader\TextFileWriter.cpp GameEngine\game\Game.cpp GameEngine\game\StringTable.cpp GameEngine\graphics\GameGraphics.cpp GameEngine\graphics\RenderList.cpp GameEngine\graphics\TextureManager.cpp GameEngine\gui\Button.cpp GameEngine\gui\Cursor.cpp GameEngine\gui\GameGUI.cpp GameEngine\gui\ScreenGUI.cpp GameEngine\input\GameInput.cpp GameEngine\TechnologyPlugins\DirectXPlugin\DirectXGraphics.cpp GameEngine\TechnologyPlugins\DirectXPlugin\DirectXTextureManager.cpp GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameInput.cpp GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameOS.cpp GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameTimer.cpp GameEngine\text\GameText.cpp GameEngine\world\AnimatedSprite.cpp GameEngine\world\AnimatedSpriteType.cpp GameWorld.cpp GameEngine\world\SparseLayer.cpp GameEngine\world\SpriteManager.cpp GameEngine\world\TiledLayer.cpp GameEngine\world\Viewport.cpp GameEngine\dataLoader\WorldLayer.cpp stdafx.cpp XactSound.cpp
+         GameAI.cpp
+     1>GameAI.cpp(19): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         GamePhysics.cpp
+     1>GamePhysics.cpp(1498): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         Player.cpp
+     1>Player.cpp(3): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         PlayerStatsGui.cpp
+     1>PlayerStatsGui.cpp(2): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         WorldScrollingGame.cpp
+     1>WorldScrollingGame\WorldScrollingGame.cpp(17): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         WRButtonEventHandler.cpp
+     1>WRButtonEventHandler.cpp(12): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         WRKeyEventHandler.cpp
+     1>WRKeyEventHandler.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         WRTextGenerator.cpp
+     1>WRTextGenerator.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         GameDataLoader.cpp
+     1>GameEngine\dataLoader\GameDataLoader.cpp(1738): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         TextFileReader.cpp
+     1>GameEngine\dataLoader\TextFileReader.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         TextFileWriter.cpp
+     1>GameEngine\dataLoader\TextFileWriter.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         Game.cpp
+     1>GameEngine\game\Game.cpp(10): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         StringTable.cpp
+     1>GameEngine\game\StringTable.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         GameGraphics.cpp
+     1>GameEngine\graphics\GameGraphics.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         RenderList.cpp
+     1>GameEngine\graphics\RenderList.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         TextureManager.cpp
+     1>GameEngine\graphics\TextureManager.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         Button.cpp
+     1>GameEngine\gui\Button.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         Cursor.cpp
+     1>GameEngine\gui\Cursor.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         GameGUI.cpp
+     1>GameEngine\gui\GameGUI.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         ScreenGUI.cpp
+     1>GameEngine\gui\ScreenGUI.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         Compiling...
+         GameInput.cpp
+     1>GameEngine\input\GameInput.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         DirectXGraphics.cpp
+     1>GameEngine\TechnologyPlugins\DirectXPlugin\DirectXGraphics.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         DirectXTextureManager.cpp
+     1>GameEngine\TechnologyPlugins\DirectXPlugin\DirectXTextureManager.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         WindowsGameInput.cpp
+     1>GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameInput.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         WindowsGameOS.cpp
+     1>GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameOS.cpp(12): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         WindowsGameTimer.cpp
+     1>GameEngine\TechnologyPlugins\WindowsPlugin\WindowsGameTimer.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         GameText.cpp
+     1>GameEngine\text\GameText.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         AnimatedSprite.cpp
+     1>GameEngine\world\AnimatedSprite.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         AnimatedSpriteType.cpp
+     1>GameEngine\world\AnimatedSpriteType.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         GameWorld.cpp
+     1>GameWorld.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         SparseLayer.cpp
+     1>GameEngine\world\SparseLayer.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         SpriteManager.cpp
+     1>GameEngine\world\SpriteManager.cpp(13): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         TiledLayer.cpp
+     1>GameEngine\world\TiledLayer.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         Viewport.cpp
+     1>GameEngine\world\Viewport.cpp(11): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         WorldLayer.cpp
+     1>GameEngine\dataLoader\WorldLayer.cpp(10): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         stdafx.cpp
+     1>stdafx.cpp(5): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+         XactSound.cpp
+     1>XactSound.cpp(10): fatal error C1083: Cannot open precompiled header file: 'Release\WorldScrollingGame.pch': No such file or directory
+     1>Done Building Project "\\files\UndergradHome\agrandstaff\Desktop\Challenge From BeyondFINAL\Challenge From BeyondFINAL\WorldScrollingGame\WorldScrollingGame\WorldScrollingGame.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.75
